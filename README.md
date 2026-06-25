@@ -21,11 +21,11 @@ Dieses Repository beinhaltet Beispieldaten:
 
 DID: `did:web:peacekeeper.github.io:webdataintegrity-examples`
 
-See:
+See: https://peacekeeper.github.io/webdataintegrity-examples/.well-known/did.json
 
 ## Example Verifiable Presentation
 
-See:
+See: https://peacekeeper.github.io/webdataintegrity-examples/.well-known/presentation.json
 
 ## Example Content
 
