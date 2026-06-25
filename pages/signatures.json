@@ -1,0 +1,5 @@
+{
+  "did": "did:web:example.com",
+  "signature": "base64_encoded_signature",
+  "algorithm": "ES256"
+}
