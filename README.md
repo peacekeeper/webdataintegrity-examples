@@ -30,7 +30,10 @@ See: https://peacekeeper.github.io/webdataintegrity-examples/.well-known/present
 ## Example Content
 
 See:
+- https://peacekeeper.github.io/webdataintegrity-examples/content1.html
+- https://peacekeeper.github.io/webdataintegrity-examples/content2.jpg
+- https://peacekeeper.github.io/webdataintegrity-examples/content3.pdf
 
 ## Example Signatures
 
-See:
+See: https://peacekeeper.github.io/webdataintegrity-examples/.well-known/data-integrity.json
