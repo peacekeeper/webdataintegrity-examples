@@ -22,7 +22,7 @@
           "type": "schema:PostalAddress",
           "schema:addressCountry": "AT",
           "schema:addressLocality": "Vienna",
-          "schema:postalCode": "1170",
+          "schema:postalCode": "1170"
         },
         "schema:email": "markus.sabadello@elevate.at",
         "schema:name": "Markus Sabadello"
