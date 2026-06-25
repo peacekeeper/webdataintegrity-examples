@@ -19,11 +19,10 @@
         "id": "did:web:peacekeeper.github.io:webdataintegrity-examples",
         "type": ["Person"],
         "schema:location": {
+          "type": "schema:PostalAddress",
           "schema:addressCountry": "AT",
           "schema:addressLocality": "Vienna",
           "schema:postalCode": "1170",
-          "schema:streetAddress": "548 Market Street\nPMB 57274",
-          "type": "schema:PostalAddress"
         },
         "schema:email": "markus.sabadello@elevate.at",
         "schema:name": "Markus Sabadello"
