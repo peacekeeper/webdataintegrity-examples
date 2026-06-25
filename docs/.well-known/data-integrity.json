@@ -2,15 +2,15 @@
   "did": "did:web:peacekeeper.github.io:webdataintegrity-examples",
   "relatedResource": [{
     "id": "https://peacekeeper.github.io:webdataintegrity-examples/content1.html",
-    "digestSRI": "sha384-Ml/HrjlBCNWyAX91hr6LFV2Y3heB5Tcr6IeE4/Tje8YyzYBM8IhqjHWiWpr8+ZbYU",
-    "signature": ""
+    "digestSRI": "sha384-9FXuhLTGfSfX7DjihvaGcKJeJMFMGmEjkLUrbVLGdaesuAx6Kh4i9emCR2LDDbqAE4",
+    "signature": "z2iAR3F2Sk3mWfYyrinKzSQpSbvfxnz9kkv7roxxumB5RZDP9JUw5QAXuchUdhuiwE18hyyZTjiEreKmhH3oj9Q8"
   }, {
     "id": "https://peacekeeper.github.io:webdataintegrity-examples/content2.jpg",
-    "digestSRI": "sha384-MzNNbQTWCSUSi0bbz7dbua+RcENv7C6FvlmYJ1Y+I727HsPOHdzwELMYO9Mz68M26",
-    "signature": ""
+    "digestSRI": "sha384-6LeUJng5UNGVk3Fw8XxGbS11MkUjGDVEXaAzj1ozWZkVxfJgAr8wakLscpPWKEWW9K",
+    "signature": "z4y9rJ7JxwfZZUBAHgDHJh7FzMbsycPhEtcSHqrfyn7fx3S5MWdajNu1r6SsJmirzfcWHe7vp9XKHmRqW6qe7u3d3"
   }, {
     "id": "https://peacekeeper.github.io:webdataintegrity-examples/content3.pdf",
-    "digestSRI": "sha384-MzNNbQTWCSUSi0bbz7dbua+RcENv7C6FvlmYJ1Y+I727HsPOHdzwELMYO9Mz68M26",
-    "signature": ""
+    "digestSRI": "sha384-tHx6cpnD7CTvv6rNDNDEL634aXicwg2DcE9KmQZkMX9EVV7mMGpB71BrbbE2CnFwH",
+    "signature": "zq3EuTeLiGurmB2JR5oL8oWEsT7u2tba4HT1oZbiMYWc5qzsoW2kLYcBcF4HM5vCpJyTkceULKrVXuJQkXeN5seL4uXrFNFRMm53GWy1Yrto8rTWxZi9DkNeWP7yUPs7ELAm"
   }]
 }
