@@ -27,7 +27,7 @@
     {
       "id": "did:web:peacekeeper.github.io:webdataintegrity-examples#presentation",
       "type": "LinkedVerifiablePresentation",
-      "serviceEndpoint": "https://peacekeeper.github.io:webdataintegrity-examples/.well-known/presentation.json"
+      "serviceEndpoint": "https://peacekeeper.github.io/webdataintegrity-examples/.well-known/presentation.json"
     }
   ]
 }
