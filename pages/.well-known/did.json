@@ -2,35 +2,32 @@
   "@context": [
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1",
-    "https://identity.foundation/linked-vp/contexts/v1"
+    "https://peacekeeper.github.io:webdataintegrity-examples/linked-vp/contexts/v1"
   ],
-  "id": "did:web:identity.foundation",
+  "id": "did:web:peacekeeper.github.io:webdataintegrity-examples",
   "verificationMethod": [
     {
-      "id": "did:web:identity.foundation#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c",
+      "id": "did:web:peacekeeper.github.io:webdataintegrity-examples#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c",
       "type": "JsonWebKey2020",
-      "controller": "did:web:identity.foundation",
+      "controller": "did:web:peacekeeper.github.io:webdataintegrity-examples",
       "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c",
-        "crv": "P-256",
-        "alg": "ES256",
-        "x": "TIIYSHfbBoXZi-B8Q5KBEmYpg6gXk0Getwt2nDPhxvI",
-        "y": "zNbtUvyDHTdmtz3tyiw84UYgzma1X8r4ToP7PbCVHgI"
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "TRIMTSNY_5GPnJM7Jt60a8ZJhxeAtvdx5M7uhNWela8"
       }
     }
   ],
   "authentication": [
-    "did:web:identity.foundation#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c"
+    "did:web:peacekeeper.github.io:webdataintegrity-examples#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c"
   ],
   "assertionMethod": [
-    "did:web:identity.foundation#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c"
+    "did:web:peacekeeper.github.io:webdataintegrity-examples#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c"
   ],
   "service": [
     {
-      "id": "did:web:identity.foundation#presentation",
+      "id": "did:web:peacekeeper.github.io:webdataintegrity-examples#presentation",
       "type": "LinkedVerifiablePresentation",
-      "serviceEndpoint": "https://identity.foundation/.well-known/presentation.json"
+      "serviceEndpoint": "https://peacekeeper.github.io:webdataintegrity-examples/.well-known/presentation.json"
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": ["VerifiablePresentation"],
+  "holder": "did:web:peacekeeper.github.io:webdataintegrity-examples",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        { "schema": "https://schema.org/" }
+      ],
+      "type": ["VerifiableCredential"],
+      "issuanceDate": "2026-05-101T17:01:22Z",
+      "issuer": "did:web:peacekeeper.github.io:webdataintegrity-examples",
+      "credentialSubject": {
+        "id": "did:web:peacekeeper.github.io:webdataintegrity-examples",
+        "type": ["Person"],
+        "schema:location": {
+          "schema:addressCountry": "AT",
+          "schema:addressLocality": "Vienna",
+          "schema:postalCode": "1170",
+          "schema:streetAddress": "548 Market Street\nPMB 57274",
+          "type": "schema:PostalAddress"
+        },
+        "schema:email": "markus.sabadello@elevate.at",
+        "schema:name": "Markus Sabadello"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:peacekeeper.github.io:webdataintegrity-examples#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c",
+        "created": "2026-05-101T17:01:22Z",
+        "jws": "eyJhbGciOiJFUzI1NiIsImtpZCI6IlhYUzd6VHNiSUlBeGdObFlFWEo0eTgxMEdGZUxrWWRxZkszQ2hob1FuN2MiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..EZCKropgZ1Vm9430_K3IJeAsNgDIzr1O_tlesPAKOj06Vlo4y-SzzXlevlyfTz9NUYNl_fgzteff1UbuHRhdbg"
+      }
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:peacekeeper.github.io:webdataintegrity-examples#XXS7zTsbIIAxgNlYEXJ4y810GFeLkYdqfK3ChhoQn7c",
+    "created": "2026-05-101T17:01:22Z",
+    "jws": "eyJhbGciOiJFUzI1NiIsImtpZCI6IlhYUzd6VHNiSUlBeGdObFlFWEo0eTgxMEdGZUxrWWRxZkszQ2hob1FuN2MiLCJjcml0IjpbImI2NCJdLCJiNjQiOmZhbHNlfQ..elMSFyVQ-OxewzWTbAZkBhMNxF7qTZkUvLfdaoLYrns4wtaJcHMA94f-5Blr9EfTIal5ffvbzG7hNiNAtgt4Jw"
+  }
+}
